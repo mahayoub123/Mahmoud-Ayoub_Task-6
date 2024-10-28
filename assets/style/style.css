@@ -1,0 +1,538 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.fullProject {
+  width: 100%;
+}
+
+.navStyle {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.linksContainer {
+  display: flex;
+}
+
+.linkColor li a {
+  color: gold !important;
+  text-decoration: unset;
+}
+.linkDecoration a {
+  color: gray;
+  text-decoration: unset;
+}
+.linkflex {
+  display: flex;
+}
+.linkspace {
+  margin-left: 8px;
+}
+.firstpartStyle {
+  display: flex;
+  flex-direction: column;
+}
+.heroContainer {
+  background-color: #f3f2ec;
+  display: flex;
+}
+.titleStyle {
+  font-size: 100px;
+}
+.parStyle {
+  color: gray;
+}
+.buttonStyle {
+  background: transparent;
+  border: 2px solid brown;
+  width: 200px;
+  height: 55px;
+}
+.secondparStyle {
+  color: brown;
+  margin-top: 8px;
+}
+.iconStyle {
+  margin-left: 12px;
+}
+.imgContainer {
+  background-color: #edebe4;
+  display: flex;
+  justify-content: space-around;
+}
+.thirdparStyle {
+  color: grey;
+  text-align: center;
+  font-size: 22px;
+  /* margin-top: 3rem;
+  margin-right: 20rem; */
+}
+.textCenter {
+  text-align: center;
+  font-size: 40px;
+}
+
+.imgGroupFlex {
+  display: flex;
+  width: 200px;
+  height: 200px;
+}
+
+.imgGroupFlex img {
+  width: 200px;
+  height: 200px;
+}
+
+.feturedStyle {
+  background-color: #edebe4;
+}
+.buttonDecoration {
+  background: transparent;
+  background-color: black;
+  color: white;
+  display: none;
+}
+.secondbuttonStyle {
+  background: transparent;
+  border: none;
+  margin-left: 35rem;
+}
+.thirdbuttonStyle {
+  background: transparent;
+  border: none;
+  margin-right: 20rem;
+  margin-top: 2rem;
+}
+.backDecoration {
+  background-color: white;
+}
+
+.contentStyle {
+  display: flex;
+  flex-direction: column;
+  margin-left: 35px;
+}
+.bestsellingStyle {
+  background-color: #edebe4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.secondImgStyle {
+  margin-left: 88px;
+  width: 200px;
+  height: 300px;
+  margin-top: 100px;
+}
+.shapeStyle {
+  width: 50px;
+  height: 5px;
+  background-color: brown;
+  color: black;
+}
+.popularStyle {
+  background-color: #edebe4;
+}
+.tabStyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.secondlinkColor {
+  display: flex;
+}
+.secondlinkColor li a {
+  color: gray;
+  margin-left: 12px;
+}
+
+.booksGroup {
+  display: flex !important;
+  max-width: fit-content;
+}
+.secondbooksGroup {
+  display: flex;
+  flex-wrap: wrap;
+}
+.secondbooksGroup > div {
+  width: 300px;
+}
+.firstbooksGroup > div {
+  width: 340px;
+}
+.booksGroup > div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 8px;
+  padding: 26px;
+  border: 2px solid #e3dada;
+  border-radius: 4px;
+}
+.booksGroup > div span {
+  width: 100%;
+  height: 100%;
+}
+.booksGroup > div h4 {
+  margin-top: 10px;
+  text-align: center;
+  width: 310px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.booksGroup div img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.booksGroup > div p {
+  text-align: center;
+}
+.secondTitleStyle h3 {
+  text-align: center;
+}
+.subscribeStyle {
+  background-color: #edebe4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thirdbuttonStyle {
+  background: transparent;
+  border: none;
+  margin-left: 30px;
+}
+.contentDecoration {
+  border-bottom: 1px solid gray;
+}
+.contentDecoration p {
+  width: 516px;
+}
+.formStyle {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.formDecoration {
+  display: flex;
+  align-items: center;
+}
+.textareaStyle {
+  background: transparent;
+  border: none;
+  width: 185px;
+  margin-top: 30px;
+}
+.virticalDecoration {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3rem;
+}
+.imgStyle {
+  width: 200px;
+}
+.linkStyle {
+  text-decoration: unset;
+  color: black;
+  margin-top: 10px;
+}
+.fontStyle {
+  font-size: 22px;
+}
+.footerStyle {
+  background-color: #f1f0ea;
+  display: flex;
+}
+.texrColor {
+  color: brown !important;
+  text-decoration: unset !important;
+}
+.copyRightBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f1f0ea;
+}
+.copyrightStyle {
+  display: flex;
+}
+.iconStyling {
+  margin-left: 200px;
+}
+.iconColor {
+  color: black;
+}
+@media (min-width: 300px) and (max-width: 500px) {
+  .fullProject {
+    width: 300%;
+  }
+  .navStyle {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .firstpartStyle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e3dada;
+  }
+  .heroContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300%;
+  }
+  .parStyle {
+    margin-top: 20px;
+  }
+  .secondparStyle {
+    margin-top: 20px;
+  }
+  .imgContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .secondbuttonStyle {
+    margin-left: 26rem;
+    margin-top: 2rem;
+  }
+  .thirdbuttonStyle {
+    margin-left: 12rem;
+  }
+  .buttonDecoration {
+    display: block;
+    margin-left: 25rem;
+  }
+  .booksGroup {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 14rem;
+  }
+  .bestsellingStyle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contentStyle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .secondImgStyle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .bestsellingStyle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contentStyle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .popularStyle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .tabStyle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .subscribeStyle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contentDecoration {
+    margin-left: 26rem;
+  }
+  .formStyle {
+    margin-right: 10rem;
+  }
+  .formDecoration {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footerStyle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .virticalDecoration {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .booksGroup {
+    flex-direction: column;
+  }
+  .booksGroup > div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .booksGroup > div span {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 800px) {
+  .fullProject {
+    width: 300%;
+  }
+  .firstpartStyle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #edebe4;
+  }
+  .navStyle {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .heroContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300%;
+  }
+  .parStyle {
+    margin-top: 20px;
+  }
+  .secondparStyle {
+    margin-top: 20px;
+  }
+  .imgContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .secondbuttonStyle {
+    margin-left: 43rem;
+    margin-top: 2rem;
+  }
+  .thirdbuttonStyle {
+    margin-left: 76rem;
+  }
+  .buttonDecoration {
+    display: none;
+  }
+  .booksGroup {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30rem;
+  }
+  .secondbooksGroup {
+    margin-right: 28rem;
+  }
+  .bestsellingStyle {
+    margin-right: 12rem;
+  }
+  .secondImgStyle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .bestsellingStyle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contentStyle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .popularStyle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .tabStyle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .subscribeStyle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .textStyle {
+    text-align: center;
+    margin-left: 27rem;
+  }
+  .formDecoration {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footerStyle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .virticalDecoration {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .booksGroup {
+    flex-direction: column;
+  }
+  .booksGroup > div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .booksGroup > div span {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 1200px) {
+  .booksGroup {
+    display: flex;
+  }
+  .booksGroup > div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .booksGroup > div span {
+    display: flex;
+    justify-content: center;
+  }
+}
